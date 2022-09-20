@@ -19,7 +19,7 @@ JavaScript
 Git
 GitHub
 Figma
-Adobe
+Adobe Photoshop
 
 ## Code
 function type() {
