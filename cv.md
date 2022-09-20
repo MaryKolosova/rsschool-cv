@@ -54,9 +54,6 @@ Specialization: Regional-linguistic geography and area studies
 [New Year 2022 Countdown] (https://ny2022-countdown.glitch.me/)
 [Human vs Machine Game] (https://humanvsmachinemary.glitch.me/)
 
-## Experience
-Solution Advisor at SoftTeco (2014-now)
-
 ## Languages
 *English 
 +C1 - Advanced
