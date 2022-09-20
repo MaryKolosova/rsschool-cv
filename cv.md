@@ -46,6 +46,9 @@ Specialization: Regional-linguistic geography and area studies
 *Freelancer Lifestyle FE Course
 *ReactJS Way of the Samurai 
 
+## Projects
+[SunLand Retreat] (https://sunland-retreat.glitch.me/)
+
 ## Experience
 Solution Advisor at SoftTeco (2014-now)
 
