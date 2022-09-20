@@ -48,6 +48,11 @@ Specialization: Regional-linguistic geography and area studies
 
 ## Projects
 [SunLand Retreat] (https://sunland-retreat.glitch.me/)
+[Meditation App] (https://meditation2022.glitch.me/)
+[Weather Forecast App] (https://weatherforecast2022.glitch.me/)
+[Motivational Quotes] (https://motivationalquotes2022.glitch.me/)
+[New Year 2022 Countdown] (https://ny2022-countdown.glitch.me/)
+[Human vs Machine Game] (https://humanvsmachinemary.glitch.me/)
 
 ## Experience
 Solution Advisor at SoftTeco (2014-now)
