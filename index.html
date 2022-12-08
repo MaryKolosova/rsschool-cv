@@ -41,7 +41,8 @@
 	<main class="main">
 		<div class="container main-container">
 			<section class="section section-profile" id="profile">
-				<img class="section-profile-logo" src="/assets/img/kolosova.jpg" alt="Personal Photo" width="200" height="350">
+				<img class="section-profile-logo" src="/assets/img/kolosova.jpg" alt="Personal Photo" width="200"
+					height="350">
 				<div class="section-profile-title">
 					<h1 class="section-title main-title">Mary Kolosova</h1>
 					<h3 class="section-subtitle">Front-End Developer</h3>
@@ -52,7 +53,7 @@
 				<h2 class="section-title">Summary</h2>
 				<p>I am a qualified Front-End developer. Team player with an eye for detail. Hard-working, creative and
 					proactive. Ambitious, eager to keep growing and evolving in my profession. Constantly developing new
-					skills and abilities. Creative, sharp-minded person with leadership & coaching skills. Strong
+					skills and abilities. Creative, sharp-minded person with leadership &amp; coaching skills. Strong
 					time-management skills and work ethic. Revenue- and results-driven.</p>
 			</section>
 
@@ -75,8 +76,7 @@
 							href="https://github.com/MaryKolosova">MaryKolosova</a>
 					</li>
 					<li class="section-item contacts-item">
-						<ion-icon size="large" name="logo-linkedin"></ion-icon><a href="www.linkedin.com/in/marykolosova">Mary
-							Kolosova</a>
+						<ion-icon size="large" name="logo-linkedin"></ion-icon><a href="www.linkedin.com/in/marykolosova">Mary Kolosova</a>
 					</li>
 					<li class="section-item contacts-item">
 						<ion-icon size="large" name="logo-discord"></ion-icon><a
@@ -132,7 +132,8 @@
 				<h2 class="section-title">Education</h2>
 				<p><span>MSLU</span> - Minsk State Linguistic University <br> English Faculty <br> Bachelor’s degree <br>
 					<span>Years:</span> 2010
-					- 2015 <br> <span>Specialization:</span> Regional-linguistic geography and area studies</p>
+					- 2015 <br> <span>Specialization:</span> Regional-linguistic geography and area studies
+				</p>
 			</section>
 			<section class="section section-english" id="languages">
 				<h2 class="section-title">Languages</h2>
@@ -167,12 +168,12 @@ function calculateTime() {
 const countdown = document.querySelector("#countdown");
 let minutes = Math.floor(amountTime / 60);
 let seconds = amountTime % 60;
-if (seconds < 10) {
+if (seconds &lt; 10) {
 seconds = "0" + seconds;
 }
 countdown.textContent = `${minutes} : ${seconds}`;
 amountTime--;
-if (amountTime < 0) {
+if (amountTime &lt; 0) {
 stopTimer();
 amountTime = 0;
 }
@@ -187,27 +188,39 @@ clearInterval(timerId);
 			<section class="section section-projects" id="projects">
 				<h2 class="section-title">Projects</h2>
 				<div class="projects__data">
-					<div class="projects__title"><a href="https://sunland-retreat.glitch.me/" target="_blank"><button class="gradient-button">SunLand Retreat</button></a></div>
+					<div class="projects__title"><a href="https://sunland-retreat.glitch.me/" target="_blank"><button
+								class="gradient-button">SunLand Retreat</button></a></div>
 					<img src="/assets/img/pr_1.png" alt="SunLand Retreat" width="750" height="400">
-					<div class="projects__title"><a href="https://ny2022-countdown.glitch.me/" target="_blank"><button class="gradient-button">New Year 2022 Countdown</button></a></div>
+					<div class="projects__title"><a href="https://ny2022-countdown.glitch.me/" target="_blank"><button
+								class="gradient-button">New Year 2022 Countdown</button></a></div>
 					<img src="/assets/img/pr_2.png" alt="NY 2022" width="750" height="400">
-					<div class="projects__title"><a href="https://meditation2022.glitch.me" target="_blank"><button class="gradient-button">Meditation	App</button></a></div>
+					<div class="projects__title"><a href="https://meditation2022.glitch.me" target="_blank"><button
+								class="gradient-button">Meditation App</button></a></div>
 					<img src="/assets/img/pr_3.png" alt="Meditation" width="750" height="400">
-					<div class="projects__title"><a href="https://weatherforecast2022.glitch.me" target="_blank"><button class="gradient-button">Weather Forecast App</button></a></div>
+					<div class="projects__title"><a href="https://weatherforecast2022.glitch.me" target="_blank"><button
+								class="gradient-button">Weather Forecast App</button></a></div>
 					<img src="/assets/img/pr_4.png" alt="Forecast" width="750" height="400">
-					<div class="projects__title"><a href="https://motivationalquotes2022.glitch.me/" target="_blank"><button class="gradient-button">Motivational Quotes</button></a></div>
+					<div class="projects__title"><a href="https://motivationalquotes2022.glitch.me/" target="_blank"><button
+								class="gradient-button">Motivational Quotes</button></a></div>
 					<img src="/assets/img/pr_5.png" alt="Quotes" width="750" height="400">
-					<div class="projects__title"><a href="https://humanvsmachinemary.glitch.me/" target="_blank"><button class="gradient-button">Human vs	Machine Game</button></a></div>
+					<div class="projects__title"><a href="https://humanvsmachinemary.glitch.me/" target="_blank"><button
+								class="gradient-button">Human vs Machine Game</button></a></div>
 					<img src="/assets/img/pr_6.png" alt="Game" width="750" height="400">
 				</div>
 				<ul class="section-list">
-					<li class="section-item"><a href="https://sunland-retreat.glitch.me/" target="_blank"><button class="gradient-button">SunLand Retreat</button></a>
+					<li class="section-item"><a href="https://sunland-retreat.glitch.me/" target="_blank"><button
+								class="gradient-button">SunLand Retreat</button></a>
 					</li>
-					<li class="section-item"><a href="https://ny2022-countdown.glitch.me/" target="_blank"><button class="gradient-button">New Year 2022 Countdown</button></a></li>
-					<li class="section-item"><a href="https://meditation2022.glitch.me" target="_blank"><button class="gradient-button">Meditation	App</button></a></li>
-					<li class="section-item"><a href="https://weatherforecast2022.glitch.me" target="_blank"><button class="gradient-button">Weather Forecast App</button></a></li>
-					<li class="section-item"><a href="https://motivationalquotes2022.glitch.me/" target="_blank"><button class="gradient-button">Motivational Quotes</button></a></li>
-					<li class="section-item"><a href="https://humanvsmachinemary.glitch.me/" target="_blank"><button class="gradient-button">Human vs	Machine Game</button></a></li>
+					<li class="section-item"><a href="https://ny2022-countdown.glitch.me/" target="_blank"><button
+								class="gradient-button">New Year 2022 Countdown</button></a></li>
+					<li class="section-item"><a href="https://meditation2022.glitch.me" target="_blank"><button
+								class="gradient-button">Meditation App</button></a></li>
+					<li class="section-item"><a href="https://weatherforecast2022.glitch.me" target="_blank"><button
+								class="gradient-button">Weather Forecast App</button></a></li>
+					<li class="section-item"><a href="https://motivationalquotes2022.glitch.me/" target="_blank"><button
+								class="gradient-button">Motivational Quotes</button></a></li>
+					<li class="section-item"><a href="https://humanvsmachinemary.glitch.me/" target="_blank"><button
+								class="gradient-button">Human vs Machine Game</button></a></li>
 					<li class="section-item">And Many More...</li>
 				</ul>
 			</section>
@@ -217,7 +230,8 @@ clearInterval(timerId);
 	<footer class="footer">
 		<div class="container footer-container">
 			<div>© 2022 <a href="https://github.com/MaryKolosova" class="github nav-link">marykolosova</a></div>
-			<a href="https://rs.school/js/" target="_blank" class="rss"><img src="https://rs.school/images/rs_school_js.svg" alt="RS Logo" width="80" ></a>
+			<a href="https://rs.school/js/" target="_blank" class="rss"><img
+					src="https://rs.school/images/rs_school_js.svg" alt="RS Logo" width="80"></a>
 		</div>
 	</footer>
 	</div>
