@@ -26,39 +26,43 @@
 	<div id="particles-js"></div>
 	<header class="header">
 		<div class="container header-container"></div>
-		<nav class="nav">
-			<ul class="nav-list">
-				<li class="nav-item">
-					<a href="#summary" class="nav-link">Summary</a>
-				</li>
-				<li class="nav-item">
-					<a href="#contacts" class="nav-link">Contacts</a>
-				</li>
-				<li class="nav-item">
-					<a href="#skills" class="nav-link">Skills</a>
-				</li>
-				<li class="nav-item">
-					<a href="#courses" class="nav-link">Courses</a>
-				</li>
-				<li class="nav-item">
-					<a href="#education" class="nav-link">Education</a>
-				</li>
-				<li class="nav-item">
-					<a href="#languages" class="nav-link">Languages</a>
-				</li>
-				<li class="nav-item">
-					<a href="#code" class="nav-link">Code</a>
-				</li>
-				<li class="nav-item">
-					<a href="#projects" class="nav-link">Projects</a>
-				</li>
-			</ul>
+		<section>
+			<nav class="top-nav">
+				<input id="menu-toggle" type="checkbox" />
+				<label class='menu-button-container' for="menu-toggle">
+					<div class='menu-button'></div>
+				</label>
+				<ul class="menu">
+					<li class="nav-item">
+						<a href="#summary" class="nav-link">Summary</a>
+					</li>
+					<li class="nav-item">
+						<a href="#contacts" class="nav-link">Contacts</a>
+					</li>
+					<li class="nav-item">
+						<a href="#skills" class="nav-link">Skills</a>
+					</li>
+					<li class="nav-item">
+						<a href="#courses" class="nav-link">Courses</a>
+					</li>
+					<li class="nav-item">
+						<a href="#education" class="nav-link">Education</a>
+					</li>
+					<li class="nav-item">
+						<a href="#languages" class="nav-link">Languages</a>
+					</li>
+					<li class="nav-item">
+						<a href="#code" class="nav-link">Code</a>
+					</li>
+					<li class="nav-item">
+						<a href="#projects" class="nav-link">Projects</a>
+					</li>
+					<li class="nav-item">
+						<a href="#project-desc" class="nav-link">Projects' Info</a>
+					</li>
+				</ul>
+		</section>
 		</nav>
-		<div class="toggle">
-			<div class="line1"></div>
-			<div class="line2"></div>
-			<div class="line3"></div>
-		</div>
 	</header>
 	<main class="main">
 		<div class="container main-container">
@@ -66,16 +70,21 @@
 				<img class="section-profile-logo" src="./assets/img/kolosova.jpg" alt="Personal Photo" width="200"
 					height="350">
 				<div class="section-profile-title">
-					<h1 class="section-title main-title">Mary Kolosova</h1>
-					<h3 class="section-subtitle">Front-End Developer</h3>
+					<h1 class="section-title main-title">Hello, I'm Mary Kolosova</h1>
+					<h3 class="section-subtitle" id="par"></h3>
 				</div>
 			</section>
 			<section class="section" id="summary">
 				<h2 class="section-title">Summary</h2>
-				<p>I am a qualified Front-End developer. Team player with an eye for detail. Hard-working, creative and
-					proactive. Ambitious, eager to keep growing and evolving in my profession. Constantly developing new
-					skills and abilities. Creative, sharp-minded person with leadership &amp; coaching skills. Strong
-					time-management skills and work ethic. Revenue- and results-driven.</p>
+				<p>I am a qualified Front-End developer. <br>
+					Team player with an eye for detail. <br>
+					Hard-working, creative and
+					proactive.<br>
+					Ambitious, eager to keep growing and evolving in my profession.<br>
+					Constantly developing new
+					skills and abilities.<br>
+					Creative, sharp-minded person with leadership &amp; coaching skills.<br>
+					Strong time-management skills and work ethic. <br> Revenue- and results-driven.</p>
 			</section>
 			<section class="section" id="contacts">
 				<h2 class="section-title">Contacts</h2>
@@ -158,7 +167,8 @@
 			</section>
 			<section class="section section-education" id="education">
 				<h2 class="section-title">Education</h2>
-				<p><span>MSLU</span> - Minsk State Linguistic University <br> English Faculty <br> Bachelor’s degree <br>
+				<p class="education"><span>MSLU</span> - Minsk State Linguistic University <br> English Faculty <br>
+					Bachelor’s degree <br>
 					<span>Years:</span> 2010
 					- 2015 <br> <span>Specialization:</span> Regional-linguistic geography and area studies
 				</p>
@@ -189,17 +199,15 @@
 			<section class="section" id="code">
 				<h2 class="section-title">Code</h2>
 				<pre class="pre">
-					<code>
 <br>
 let i = 1, n = 5; <br>
 while (i &lt;= n) {<br>
 console.log(i);<br>
 i += 1;<br>
 }<br>
-					</code>
 				</pre>
 			</section>
-			<section class="section-projects" id="projects">
+			<section class="section section-projects" id="projects">
 				<h2 class="section-title">Projects</h2>
 				<div class="projects__data">
 					<div class="projects__title">
@@ -234,7 +242,7 @@ i += 1;<br>
 					</div>
 				</div>
 			</section>
-			<section class="section-projects__desc" id="project-desc">
+			<section class="section section-projects__desc" id="project-desc">
 				<h2 class="section-title">Projects' Links & Info</h2>
 				<ul class="section-list">
 					<li class="project-section-item">
