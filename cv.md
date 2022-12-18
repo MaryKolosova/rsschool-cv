@@ -10,27 +10,27 @@
 I am a qualified Web developer. Team player with an eye for detail. Hard-working, creative and proactive. Ambitious, eager to keep growing and evolving in my profession. Constantly developing new skills and abilities. Creative, sharp-minded person with leadership & coaching skills. Strong time-management skills and work ethic. Revenue- and results-driven.
 
 ## Skills
+*JavaScript
+*Typescript
+*Node.js
 *HTML
 *CSS
 *SASS
 *GSAP
 *Bootstrap
-*JavaScript
 *Git
 *GitHub
 *Figma
+*WebPack
 *Adobe Photoshop
 
 ## Code
 ```
-function type() {
-	if (i < text.length) {
-		document.querySelector('#heading').textContent += text.charAt(i);
-		i++;
-		setTimeout(type, speed)
-	}
+let i = 1, n = 5; 
+while (i &lt;= n) {
+console.log(i);
+i += 1;
 }
-type()
 ```
 
 ## Education
