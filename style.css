@@ -206,16 +206,6 @@ body {
 	letter-spacing: 2px;
 }
 
-h3 {
-	display: block;
-	font-size: 1.17em;
-	margin-block-start: 1em;
-	margin-block-end: 1em;
-	margin-inline-start: 0px;
-	margin-inline-end: 0px;
-	font-weight: bold;
-}
-
 a {
 	text-align: center;
 	text-decoration: none;
@@ -422,6 +412,17 @@ dd {
 	margin-inline-start: 10px;
 }
 
+#par {
+	display: block;
+	font-size: 1.17em;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	margin-top: 10%;
+	font-weight: bolder;
+}
+
 #particles-js {
 	position: absolute;
 	width: 100%;
@@ -543,7 +544,9 @@ dd {
 	margin-top: 0px;
 	transform: rotate(-405deg);
 }
-
+h4 {
+	display: none;
+}
 @media (max-width: 700px) {
 	.menu-button-container {
 		display: flex;
