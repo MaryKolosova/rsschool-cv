@@ -48,7 +48,8 @@ body {
 }
 
 .nav-link:hover {
-	color: #e12179;
+	color: #17acc4;
+	font-weight: bold;
 }
 
 .footer-github {
