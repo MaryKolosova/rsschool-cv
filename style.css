@@ -9,6 +9,7 @@ html {
 }
 
 body {
+	position: absolute;
 	height: 100%;
 	background-color: #1d262d;
 	background-image: url("");
@@ -378,6 +379,7 @@ img {
 }
 
 .footer {
+	position: relative;
 	display: flex;
 	flex-direction: column;
 	background-image: linear-gradient(118deg, rgb(225, 33, 121) 19%, rgb(109, 25, 128) 52%, rgb(9, 9, 121) 94%);
@@ -425,9 +427,9 @@ dd {
 }
 
 #particles-js {
-	position: absolute;
+	position: fixed;
 	width: 100%;
-	height: 100vh;
+	height: 99%;
 	background-color: #1d262d;
 	background-image: url("");
 	background-repeat: no-repeat;

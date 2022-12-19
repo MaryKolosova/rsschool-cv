@@ -9,7 +9,7 @@ function type() {
 		setTimeout(type, speed);
 	}
 }
-type()
+type();
 
 /* ---- particles.js config ---- */
 
